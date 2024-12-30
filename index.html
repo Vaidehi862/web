@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant & Bar</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-image: url('restaurant-background.jpg');
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        header {
+            background-color: rgba(34, 34, 34, 0.8);
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: rgba(68, 68, 68, 0.8);
+            padding: 0.5rem 0;
+        }
+        nav a {
+            color: white;
+            margin: 0 1rem;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .hero {
+            background-image: url('https://t3.ftcdn.net/jpg/02/06/04/70/360_F_206047084_OxZGQ404N8rocQmItLIQRMRWlQwV3mSH.jpg');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            height: 500px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 3rem;
+            text-shadow: 2px 2px 4px rgba(88, 9, 9, 0.7);
+        }
+        section {
+            padding: 2rem;
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.8);
+            margin: 1rem;
+            border-radius: 8px;
+        }
+        .specialties {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .specialty-item {
+            width: 30%;
+            margin: 1rem;
+            text-align: center;
+        }
+        .specialty-item img {
+            width: 100%;
+            border-radius: 8px;
+        }
+        .menu {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .menu-item {
+            width: 30%;
+            margin: 1rem;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 1rem;
+            background-color: white;
+        }
+        footer {
+            background-color: rgba(34, 34, 34, 0.8);
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Restaurant & Bar</h1>
+    </header>
+    <nav>
+        <a href="#about">About Us</a>
+        <a href="#specialties">Specialties</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="hero">
+        Experience the Best Food and Drinks in Town
+    </div>
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We offer a unique dining experience with delicious food, exquisite drinks, and a welcoming atmosphere.</p>
+    </section>
+    <section id="specialties">
+        <h2>Our Specialties</h2>
+        <div class="specialties">
+            <div class="specialty-item">
+                <img src="https://wiproappliances.com/cdn/shop/articles/Veg_grilled_cheese_sandwich.jpg?v=1714126819" alt="grilled sandwich">
+                <h3>Grilled Sandwich</h3>
+                <p>Our premium steak, perfectly grilled to your taste.</p>
+            </div>
+            <div class="specialty-item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzfMGJ6DGu5mOpa9YCJBn-heS0hmYx955BbQ&s" alt="Signature Cocktail">
+                <h3>Signature Cocktail</h3>
+                <p>Exclusive blends of flavors crafted by our expert mixologists.</p>
+            </div>
+            <div class="specialty-item">
+                <img src="https://www.simplyrecipes.com/thmb/vwdvekpzvekRsKqDSsHwjo4Z8HI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/SimplyRecipes_StrawberriesandCreamSemifreddo_LEAD_8-6091b57b35a34c5392eb0db18a82ba96.jpg" alt="Desserts">
+                <h3> Desserts</h3>
+                <p>Indulge in our delectable range of desserts.</p>
+            </div>
+        </div>
+    </section>
+    <section id="menu">
+        <h2>Our Menu</h2>
+        <div class="menu">
+            <div class="menu-item">
+                <h3>Grilled Sandwichk</h3>
+                <p>Juicy steak cooked to perfection. ₹2000</p>
+            </div>
+            <div class="menu-item">
+                <h3>Signature Cocktail</h3>
+                <p>A blend of premium spirits and fresh ingredients. ₹950</p>
+            </div>
+            <div class="menu-item">
+                <h3>Classic Burger</h3>
+                <p>Served with crispy fries. ₹700</p>
+            </div>
+        </div>
+        <hr>
+    
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>123 Main Street, Food City</p>
+        <p>Phone: 9309108308</p>
+        <p>Email: bagv813@gmail.com</p>
+    </section>
+</body>
+</html>
